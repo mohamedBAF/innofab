@@ -1,0 +1,129 @@
+.containerr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.containerr > h2 {
+  display: flex;
+  margin-left: -58vh;
+}
+
+.Box > p {
+  color: #edecfb;
+}
+
+.Box {
+  width: 40%;
+  height: 30vh;
+  background-color: #23233f;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+  padding-left: 50px;
+  justify-content: space-evenly;
+  border: 1px solid #383473;
+}
+.box2 {
+  margin-top: 15px;
+  width: 40%;
+  height: 4vh;
+  background-color: #23233f;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  padding-left: 50px;
+  justify-content: space-between;
+  border: 1px solid #383473;
+}
+.box2 > p {
+  color: #edecfb;
+}
+.champ1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 999px;
+  background-color: transparent;
+  color: #edecfb;
+  height: 20px;
+  border: 1px solid #383473;
+  padding: 10px;
+  width: 15%;
+  cursor: pointer;
+  justify-self: center;
+  width: 95%;
+}
+.champ1 > input {
+  width: 85%;
+  background-color: transparent;
+  outline: 0;
+  border: none;
+  caret-color: gray;
+  color: #edecfb;
+}
+
+.champ1 > p {
+  color: gray;
+  font-size: 12px;
+}
+
+.select {
+  width: 85%;
+  background-color: transparent;
+  outline: 0;
+  border: none;
+
+  color: #edecfb;
+}
+
+.last {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-right: 30px;
+  align-items: center;
+}
+
+.buttonAjout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 0.875rem;
+  box-sizing: border-box;
+  min-height: calc(1.5em + 22px);
+  min-width: 50px !important;
+  background: #423f6e;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  margin: 0.5em;
+  padding: 10px;
+  text-align: center;
+  line-height: 1.5;
+  color: #edecfb;
+  outline-width: 0;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.buttonRetour {
+  display: flex;
+  align-items: center;
+  border-radius: 999px;
+  background-color: transparent;
+  border: 1px solid #383473;
+  color: #edecfb;
+  height: 50px;
+  width: 120px;
+  cursor: pointer;
+}

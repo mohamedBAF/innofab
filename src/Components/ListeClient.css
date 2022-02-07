@@ -1,0 +1,168 @@
+.containerr {
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  align-self: center;
+  justify-content: flex-start;
+  flex: 1;
+  margin-left: -17vh;
+  width: 50%;
+}
+
+.elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 999px;
+  background-color: #333058;
+  color: #edecfb;
+  height: 20px;
+  border: 1px solid #383473;
+  padding: 10px;
+  min-width: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  justify-self: center;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.filter > select {
+  width: 85%;
+  background-color: transparent;
+  outline: 0;
+  border: none;
+
+  color: #edecfb;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 999px;
+  background-color: #3c3957;
+  border-color: #4a3dac;
+  width: 30%;
+}
+
+.inputs > input {
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+  width: 80% !important;
+  margin-left: -15px;
+  color: white;
+}
+.inputs > .MuiSvgIcon-root {
+  color: gray;
+  margin-right: 20px;
+}
+
+.first > p {
+  color: #edecfb;
+  display: flex;
+  margin-left: 21%;
+  justify-content: flex-start;
+}
+.buttonChoice {
+  border-radius: 999px;
+  background-color: transparent;
+  color: #edecfb;
+  height: 45px;
+  border: 1px solid #383473;
+  padding: 10px;
+  width: 15%;
+  cursor: pointer;
+}
+
+.last {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.buttonAjout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 0.875rem;
+  box-sizing: border-box;
+  min-height: calc(1.5em + 22px);
+  min-width: 200px;
+  background: #423f6e;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  margin: 0.5em;
+  padding: 10px;
+  text-align: center;
+  line-height: 1.5;
+  color: #edecfb;
+  outline-width: 0;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+  width: 80%;
+}
+
+.table {
+  border: 1px solid #383473;
+  color: #edecfb;
+  width: 100%;
+
+  height: 10% !important;
+}
+
+.table > thead {
+  background-color: #292745;
+  border: transparent;
+  color: #a3a6dc;
+}
+.table > tbody {
+  overflow-y: "scroll" !important;
+}
+td {
+  padding: 30px;
+}
+.second::-webkit-scrollbar {
+  width: 10px;
+}
+
+.second::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.second::-webkit-scrollbar-thumb {
+  background-color: rgb(167, 167, 167);
+  height: 30px;
+  border-radius: 12px;
+}
